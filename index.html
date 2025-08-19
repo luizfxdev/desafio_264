@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alquimista das Strings</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Alquimista das Strings</h1>
+        <p>
+          Bem-vindo ao mundo mágico dos alquimistas! ⚗️✨ Transforme uma sequência de caracteres em uma obra-prima
+          perfeita seguindo as regras de transmutação:
+        </p>
+        <p>1. Converter todas as vogais para a próxima vogal (a → e, e → i, i → o, o → u, u → a)</p>
+        <p>2. Inverter a ordem das consoantes</p>
+        <p>3. Manter pontuação e espaços intactos</p>
+      </div>
+
+      <div class="input-group">
+        <label for="inputText">Digite o texto a ser transformado:</label>
+        <input type="text" id="inputText" placeholder="Ex: O grande feiticeiro" />
+      </div>
+
+      <div class="button-group">
+        <button style="--clr: #00ff00" id="convertBtn">
+          <span>CONVERTER</span>
+          <i></i>
+        </button>
+        <button style="--clr: #00ff00" id="returnBtn">
+          <span>RETORNAR</span>
+          <i></i>
+        </button>
+      </div>
+
+      <div class="result">
+        <h2>Resultado da Transmutação:</h2>
+        <div class="result-content" id="resultOutput">
+          <!-- O resultado será exibido aqui -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
